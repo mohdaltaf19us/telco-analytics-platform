@@ -1,0 +1,25 @@
+# secrets
+*.p8
+*.pem
+*.pub
+.env
+.env.*
+profiles.yml
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+# dbt
+dbt/telco_dbt/target/
+dbt/telco_dbt/dbt_packages/
+dbt/telco_dbt/logs/
+# airflow
+airflow/logs/
+airflow/*.cfg
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
